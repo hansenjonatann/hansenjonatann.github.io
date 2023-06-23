@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <div className="container scroll-smooth">
-      <Navbar />
-      <Hero />
+    <div>
+      <Home />
     </div>
   );
 };
