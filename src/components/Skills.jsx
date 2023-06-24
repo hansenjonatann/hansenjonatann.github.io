@@ -1,35 +1,33 @@
 import React from "react";
-import {
-  BiLogoHtml5,
-  BiLogoCss3,
-  BiLogoJavascript,
-  BiLogoPhp,
-  BiLogoReact,
-  BiLogoTailwindCss,
-  BiLogoBootstrap,
-} from "react-icons/bi";
+import IconBxlHtml5 from "../Box/HTML";
+import IconBxlCss3 from "../Box/Css";
+import IconBxlJavascript from "../Box/Javascript";
+import IconBxlPhp from "../Box/Php";
+import IconBxlBootstrap from "../Box/Bootstrap";
+import IconBxlReact from "../Box/React";
+import IconBxlTailwindCss from "../Box/Tailwind";
 function Skills() {
   return (
     <div className="mt-64 md:mt-8 ">
       <h1 className="text-center text-secondary text-2xl font-bold ">Skills</h1>
       <div className="flex transition duration-250  md:justify-center text-6xl md:text-7xl text-secondary justify-center mt-4 ">
-        <BiLogoHtml5
+        <IconBxlHtml5
           title="HTML"
           className="hover:scale-150 hover:text-orange-600"
         />
-        <BiLogoCss3
+        <IconBxlCss3
           title="CSS"
           className="hover:scale-150 hover:text-blue-600"
         />
-        <BiLogoJavascript
+        <IconBxlJavascript
           title="Javascript"
           className="hover:scale-150 hover:text-yellow-600"
         />
-        <BiLogoPhp
+        <IconBxlPhp
           title="PHP"
           className="hover:scale-150 hover:text-indigo-600"
         />
-        <BiLogoBootstrap
+        <IconBxlBootstrap
           title="Bootstrap"
           className="hover:scale-150 hover:text-indigo-800"
         />
@@ -38,11 +36,11 @@ function Skills() {
         Being Studied
       </h2>
       <div className="flex text-6xl text-secondary justify-center mt-4 md:text-7xl ">
-        <BiLogoReact
+        <IconBxlReact
           title="React"
           className="hover:scale-150 hover:text-[#149ECA]"
         />
-        <BiLogoTailwindCss
+        <IconBxlTailwindCss
           title="Tailwind CSS"
           className="hover:scale-150 hover:text-[#38BDF8]"
         />

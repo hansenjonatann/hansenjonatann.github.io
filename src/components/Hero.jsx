@@ -1,5 +1,9 @@
 import React from "react";
 import IconGithub from "../Icons/Github";
+import IconInstagram from "../Icons/Instagram";
+import IconYoutube from "../Icons/Youtube";
+import IconLinkedin from "../Icons/Linkedin";
+import IconTwitter from "../Icons/Twitter";
 
 function Hero() {
   return (
@@ -19,9 +23,17 @@ function Hero() {
             <IconGithub />
           </a>
           <a href="https://instagram.com/hansenjonatann" target="_blank">
+            <IconInstagram />
           </a>
-          <a href="https://youtube.com/@hjcodin" target="_blank"></a>
-          <a href="https://twitter.com/@hansenjonatannn" target="_blank"></a>
+          <a href="https://youtube.com/@hjcodin" target="_blank">
+            <IconYoutube />
+          </a>
+          <a href="https://twitter.com/@hansenjonatannn" target="_blank">
+            <IconTwitter />
+          </a>
+          <a href="https://linkedin.com/@hansenjonatannn" target="_blank">
+            <IconLinkedin />
+          </a>
         </div>
         <a
           href="#"
