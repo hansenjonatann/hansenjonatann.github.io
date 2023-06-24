@@ -1,13 +1,19 @@
-import React from "react";
-
+import React, { useState } from "react";
+import { FaBars } from "react-icons/fa";
 function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <div>
-      <nav className="flex items-center justify-between  text-secondary py-4 px-16 w-screen  text-xl  shadow-lg">
+      <nav className="flex items-center justify-between  text-secondary py-4 px-10 md:px-16 w-screen  text-xl  shadow-lg">
         <div>
           <h1 className="font-bold">Hansen Jonatan</h1>
         </div>
-        <ul className=" hidden md:flex font-medium ">
+        <ul className=" hidden md:flex font-medium  ">
           <li>
             <a
               href="#"
@@ -33,6 +39,9 @@ function Navbar() {
             </a>
           </li>
         </ul>
+        <button className="md:hidden" onClick={handleToggle}>
+          <FaBars />
+        </button>
       </nav>
     </div>
   );
