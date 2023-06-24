@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaBars } from "react-icons/fa";
+import IconBars from "../Icons/Bars";
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -40,7 +40,7 @@ function Navbar() {
           </li>
         </ul>
         <button className="md:hidden" onClick={handleToggle}>
-          <FaBars />
+          <IconBars />
         </button>
       </nav>
     </div>
