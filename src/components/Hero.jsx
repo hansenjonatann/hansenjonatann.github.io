@@ -1,5 +1,5 @@
 import React from "react";
-import { FiGithub, FiInstagram, FiYoutube, FiTwitter } from "react-icons/fi";
+import IconGithub from "../Icons/Github";
 
 function Hero() {
   return (
@@ -16,17 +16,12 @@ function Hero() {
         </p>
         <div className="flex rounded-circle  text-2xl mb-3 text-secondary gap-4 mt-3">
           <a href="https://github.com/hansenjonatann" target="_blank">
-            <FiGithub />
+            <IconGithub />
           </a>
           <a href="https://instagram.com/hansenjonatann" target="_blank">
-            <FiInstagram />
           </a>
-          <a href="https://youtube.com/@hjcodin" target="_blank">
-            <FiYoutube />
-          </a>
-          <a href="https://twitter.com/@hansenjonatannn" target="_blank">
-            <FiTwitter />
-          </a>
+          <a href="https://youtube.com/@hjcodin" target="_blank"></a>
+          <a href="https://twitter.com/@hansenjonatannn" target="_blank"></a>
         </div>
         <a
           href="#"
