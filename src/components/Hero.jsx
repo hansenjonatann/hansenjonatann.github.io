@@ -7,18 +7,18 @@ import IconTwitter from "../Icons/Twitter";
 
 function Hero() {
   return (
-    <div className="flex items-center py-4  w-screen flex-wrap">
+    <div className="flex items-center py-4 pb-16  w-screen flex-wrap bg-primary">
       <div className="md:w-1/2  p-10 md:p-16 ">
-        <h1 className="text-secondary font-bold text-3xl md:text-[41px]">
+        <h1 className="text-secondary font-medium text-3xl md:text-5xl">
           Hansen Jonatan
         </h1>
-        <p className="text-[30px] text-accsent font-medium ">
+        <p className="text-[30px] text-secondary font-medium ">
           I am a
-          <span className="text-secondary text-xl  px-2  md:px-4 md:text-[35px] font-bold">
+          <span className="text-accsent text-2xl  px-2  md:px-4 md:text-[35px] md:pt-16 font-bold">
             Web Developer
           </span>
         </p>
-        <div className="flex rounded-circle  text-2xl mb-3 text-secondary gap-4 mt-3">
+        <div className="flex rounded-circle  text-2xl md:text-4xl mb-3 text-accsent gap-4 mt-3 ">
           <a href="https://github.com/hansenjonatann" target="_blank">
             <IconGithub />
           </a>
@@ -37,22 +37,22 @@ function Hero() {
         </div>
         <a
           href="#"
-          className="transition duration-300 text-primary py-2 mt-2 px-6  bg-secondary font-medium inline-block rounded-lg hover:bg-opacity-50  "
+          className="transition duration-300 text-primary font-bold py-2 mt-2 px-6  bg-secondary  inline-block rounded-lg hover:bg-opacity-50  "
         >
           Learn More
         </a>
         <a
           href="#"
-          className="transition duration-300 text-accsent py-2 mt-2 px-6    border border-secondary  md:mx-4 mx-2  font-medium inline-block rounded-lg hover:bg-opacity-50 "
+          className="transition duration-300 text-accsent  py-2 mt-2 px-6    border border-secondary  md:mx-4 mx-2  font-medium inline-block rounded-lg hover:bg-opacity-50 "
         >
           Download CV
         </a>
       </div>
       <div className="w-1/2">
         <img
-          src="image/hansenjonatan.png"
+          src="image/hansenjonatann.png"
           alt=""
-          className="mx-24 md:ml-32 w-[250px]"
+          className="mx-24 md:ml-26 "
         />
       </div>
     </div>

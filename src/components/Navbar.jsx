@@ -9,31 +9,31 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="flex items-center justify-between  text-secondary py-4 px-10 md:px-16 w-screen  text-xl  shadow-lg">
+      <nav className="flex items-center justify-between bg-primary  text-secondary py-4 px-10 md:px-16 w-screen overflow-hidden  text-xl sticky">
         <div>
-          <h1 className="font-bold">Hansen Jonatan</h1>
+          <h1 className="font-medium">Hansen Jonatan</h1>
         </div>
-        <ul className=" hidden md:flex font-medium  ">
+        <ul className=" hidden md:flex   ">
           <li>
             <a
               href="#"
-              className="px-4 py-2 transition duration-150 hover:underline"
+              className="px-4 py-2 transition duration-300 hover:underline"
             >
               Home
             </a>
           </li>
           <li>
             <a
-              href="#"
-              className="px-4 py-2 transition duration-150 hover:underline"
+              href="#portfolio"
+              className="px-4 py-2 transition duration-300 hover:underline"
             >
               Portfolio
             </a>
           </li>
           <li>
             <a
-              href="#"
-              className="px-4 py-2 transition duration-150 hover:underline"
+              to="#contact"
+              className="px-4 py-2 transition duration-300 hover:underline"
             >
               Contact
             </a>
