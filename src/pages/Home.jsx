@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
 import Education from "../components/Education";
+import Portfolio from "../components/Portfolio";
 
 function Home() {
   return (
@@ -11,8 +12,7 @@ function Home() {
       <Navbar />
       <Hero />
       <AboutMe />
-      <Skills />
-      <Education />
+      <Portfolio />
     </div>
   );
 }
